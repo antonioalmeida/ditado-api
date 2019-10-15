@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/antonioalmeida/ditado-api/issues"
   },
-  "homepage": "https://github.com/antonioalmeida/ditado-api#readme"
+  "homepage": "https://github.com/antonioalmeida/ditado-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.15.1"
+  }
 }
