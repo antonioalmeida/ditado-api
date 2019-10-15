@@ -1,0 +1,19 @@
+{
+  "name": "ditado-api",
+  "version": "1.0.0",
+  "description": "Public API to serve popular portuguese sayings, i.e., \"ditados\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioalmeida/ditado-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonioalmeida/ditado-api/issues"
+  },
+  "homepage": "https://github.com/antonioalmeida/ditado-api#readme"
+}
