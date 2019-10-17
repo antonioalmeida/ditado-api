@@ -1,4 +1,3 @@
-const express = require('express')
 const jsonServer = require('json-server')
 const router = jsonServer.router('ditados.json')
 const server = jsonServer.create()
