@@ -23,10 +23,3 @@ jobs:
         npm run lint
       env:
         CI: true
-    - uses: actions/heroku@1.0.0
-      name: push to Heroku
-      with:
-        args: container:push -a ditado-api web
-      env:
-        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-
