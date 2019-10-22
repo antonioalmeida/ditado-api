@@ -3,7 +3,7 @@ const router = jsonServer.router('ditados.json')
 const server = jsonServer.create()
 const middlewares = jsonServer.defaults()
 
-const PORT = process.env.PORT || 80;                  
+const PORT = process.env.PORT || 3000;
  
 server.use(router)
 server.use(middlewares)

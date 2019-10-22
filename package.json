@@ -4,6 +4,7 @@
   "description": "Public API to serve popular portuguese sayings, i.e., \"ditados\"",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/.bin/eslint ."
   },
