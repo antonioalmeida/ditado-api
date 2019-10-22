@@ -23,3 +23,8 @@ jobs:
         npm run lint
       env:
         CI: true
+    - uses: actions/heroku@1.0.0
+      name: Login to Heroku
+      run: container:login
+      secrets: HEROKU_API_KEY
+
