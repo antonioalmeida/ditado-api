@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/antonioalmeida/ditado-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "json-server": "^0.15.1"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "json-server": "^0.15.1"
+    "eslint": "^6.5.1"
   }
 }
