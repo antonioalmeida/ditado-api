@@ -25,7 +25,8 @@ jobs:
         CI: true
     - uses: actions/heroku@1.0.0
       name: Login to Heroku
-      run: container:login
+      with:
+        args: container:login
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
 
