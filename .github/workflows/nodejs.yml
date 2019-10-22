@@ -1,0 +1,47 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm install and lint
+      run: |
+        npm ci
+        npm run lint
+      env:
+        CI: true
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+    steps:
+    - uses: actions/checkout@master
+    - name: login to Heroku
+      uses: actions/heroku@1.0.0
+      with:
+        args: container:login
+    - name: push to Heroku
+      uses: actions/heroku@1.0.0
+      with:
+        args: container:push -a ditado-api web ;
+    - name: deploy to Heroku
+      uses: actions/heroku@1.0.0
+      with:
+        args: container:release -a ditado-api web
+      
+      
+
+    
