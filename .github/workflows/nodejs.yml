@@ -23,19 +23,21 @@ jobs:
         CI: true
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     env:
       HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
     steps:
-    - uses: actions/heroku@1.0.0
-      name: login to Heroku
+    - name: login to Heroku
+      uses: actions/heroku@1.0.0
       with:
-        args: container:login ;
-              container:release -a ditado-api web
+        args: container:login
     - name: push to Heroku
+      uses: actions/heroku@1.0.0
       with:
         args: container:push -a ditado-api web ;
     - name: deploy to Heroku
+      uses: actions/heroku@1.0.0
       with:
         args: container:release -a ditado-api web
       
