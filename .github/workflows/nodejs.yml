@@ -4,9 +4,7 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [8.x, 10.x, 12.x]
@@ -25,14 +23,22 @@ jobs:
         CI: true
 
   deploy:
-    
     runs-on: ubuntu-latest
+    env:
+      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
     steps:
     - uses: actions/heroku@1.0.0
-      name: push to Heroku
+      name: login to Heroku
       with:
         args: container:login ;
-              container:push -a ditado-api web ;
               container:release -a ditado-api web
-      env:
-        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+    - name: push to Heroku
+      with:
+        args: container:push -a ditado-api web ;
+    - name: deploy to Heroku
+      with:
+        args: container:release -a ditado-api web
+      
+      
+
+    
