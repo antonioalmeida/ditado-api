@@ -1,8 +1,17 @@
 {
-   "ditados":[
-      {
-         "content":"É desde pequenino que se torce o pepino",
-         "meaning":"Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
-      }
-   ]
+  "ditados": [
+    {
+      "content": "É desde pequenino que se torce o pepino",
+      "meaning": "Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
+    },
+
+    {
+      "content": "A barking dog never or seldom bites",
+      "meaning": "Someone who makes threats all the time seldom carries out the threats."
+    },
+    {
+      "content": "A bully is always a cow.",
+      "meaning": "Bullies only intimidate people who are weaker than they are, because they are afraid of having to fight their equals"
+    }
+  ]
 }
