@@ -40,7 +40,7 @@ jobs:
       with:
         args: container:push -a ditado-api web ;
     - name: deploy to Heroku
-      uses: actions/heroku@1.0.0
+      uses: sjdonado/heroku@master
       with:
         args: container:release -a ditado-api web
       
