@@ -27,7 +27,7 @@ Public REST API available at https://ditado-api.herokuapp.com.
    ]
 }
 ```
-- Submit a PR;
+- Submit a PR and celebrate 🎉 
 
 
 
