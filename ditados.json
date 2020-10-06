@@ -1,40 +1,40 @@
 {
-   "ditados": [
+   "ditados":[
       {
-         "content": "É desde pequenino que se torce o pepino",
-         "meaning": "Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
+         "content":"É desde pequenino que se torce o pepino",
+         "meaning":"Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
       },
       {
-         "content": "Quem não arrisca, não petisca.",
-         "meaning": "Às vezes correr um risco pode ter benefícios."
+         "content":"Quem não arrisca, não petisca.",
+         "meaning":"Às vezes correr um risco pode ter benefícios."
       },
       {
-         "content": "Quem ama o feio, bonito lhe parece",
-         "meaning": "Quando existe amor ou um sentimento muito forte de estima em relação a outra pessoa, ela passa a ser bela aos olhos do amado, mesmo que não siga os padrões tradicionais de beleza."
+         "content":"Quem ama o feio, bonito lhe parece",
+         "meaning":"Quando existe amor ou um sentimento muito forte de estima em relação a outra pessoa, ela passa a ser bela aos olhos do amado, mesmo que não siga os padrões tradicionais de beleza."
       },
       {
-         "content": "Não deixe para amanhã o que você pode fazer hoje",
-         "meaning": "Devemos realizar as coisas sem procrastinar, ou seja, sem adiar, deixando para mais tarde."
+         "content":"Não deixe para amanhã o que você pode fazer hoje",
+         "meaning":"Devemos realizar as coisas sem procrastinar, ou seja, sem adiar, deixando para mais tarde."
       },
       {
-         "content": "De grão em grão, a galinha enche o papo",
-         "meaning": "Quando economizamos pouco, mas constantemente, conseguimos alcançar aquilo que desejamos, mesmo se o objetivo final pareça ser impossível"
+         "content":"De grão em grão, a galinha enche o papo",
+         "meaning":"Quando economizamos pouco, mas constantemente, conseguimos alcançar aquilo que desejamos, mesmo se o objetivo final pareça ser impossível"
       },
       {
-         "content": "Devagar se vai longe",
-         "meaning": "Apresenta que pessoas que fazem atividades com calma, cada uma a seu tempo, conseguem ter mais sucesso do que as que realizam seus afazeres apressados."
+         "content":"Devagar se vai longe",
+         "meaning":"Apresenta que pessoas que fazem atividades com calma, cada uma a seu tempo, conseguem ter mais sucesso do que as que realizam seus afazeres apressados."
       },
       {
-         "content": "Cão que ladra não morde",
-         "meaning": "Mostra que algumas pessoas ameaçam com palavras, mas, na verdade, não fazem nada, por isso não é necessário temê-las."
+         "content":"Cão que ladra não morde",
+         "meaning":"Mostra que algumas pessoas ameaçam com palavras, mas, na verdade, não fazem nada, por isso não é necessário temê-las."
       },
       {
-         "content": "Em terra de cego, quem tem olho é rei",
-         "meaning": "No meio da ignorância, quem sabe o pouco domina"
+         "content":"Em terra de cego, quem tem olho é rei",
+         "meaning":"No meio da ignorância, quem sabe o pouco domina"
       },
       {
-         "content": "Quem não tem cão, caça com gato",
-         "meaning": "Quando você não tem cachorro, leva mesmo um gato para caçar"
+         "content":"Quem não tem cão, caça com gato",
+         "meaning":"Quando você não tem cachorro, leva mesmo um gato para caçar"
       }
    ]
 }
