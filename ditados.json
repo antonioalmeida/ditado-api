@@ -1,12 +1,12 @@
 {
-   "ditados":[
+   "ditados": [
       {
-         "content":"É desde pequenino que se torce o pepino",
-         "meaning":"Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
+         "content": "É desde pequenino que se torce o pepino",
+         "meaning": "Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
       },
       {
-         "content":"Quem não arrisca, não petisca.",
-         "meaning":"Às vezes correr um risco pode ter benefícios."
+         "content": "Quem não arrisca, não petisca.",
+         "meaning": "Às vezes correr um risco pode ter benefícios."
       },
       {
          "content": "Quem ama o feio, bonito lhe parece",
@@ -32,5 +32,9 @@
          "content": "Em terra de cego, quem tem olho é rei",
          "meaning": "No meio da ignorância, quem sabe o pouco domina"
       },
+      {
+         "content": "Quem não tem cão, caça com gato",
+         "meaning": "Quando você não tem cachorro, leva mesmo um gato para caçar"
+      }
    ]
 }
