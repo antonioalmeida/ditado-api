@@ -10,7 +10,7 @@ Public API to serve _ditados_, i.e., popular Portuguese sayings.
 Public REST API available at https://ditado-api.herokuapp.com.
 
 - [x] `GET /ditados` - Fetch all entries
-- [ ] `GET /ditados/random` - Fetch random entry. Take on [this issue](https://github.com/antonioalmeida/ditado-api/issues/5)!
+- [x] `GET /ditados/random` - Fetch random entry.
 
 ## Contribute
 
