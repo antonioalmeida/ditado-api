@@ -25,6 +25,10 @@ jobs:
         npm run lint
       env:
         CI: true
+    - name: npm test
+      run: npm test
+      env:
+        CI: true
 
   deploy:
     needs: build
