@@ -1,9 +1,10 @@
 const random = require('./random')
+const { expect, test } = require('@jest/globals');
 const ditadosArray = require('./ditados.json').ditados;
 
 test('getting all ditados one by one using random should return no duplicate', () => {
     const seenDitados = [];
-    const foundDuplicateDitado = false;
+    let foundDuplicateDitado = false;
     const totalDitados = ditadosArray.length;
     for(let i = 0; i < totalDitados; i++){
         const ditado = random.getRandomDitado(false, ditadosArray);
@@ -13,6 +14,5 @@ test('getting all ditados one by one using random should return no duplicate', (
         }
         seenDitados.push(ditado);
     }
-
     expect(foundDuplicateDitado).toBe(false);
 });
