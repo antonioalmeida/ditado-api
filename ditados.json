@@ -88,6 +88,10 @@
             "meaning": "Expressão usada quando alguém perde ou devia perder alguma ilusão e ser realista."
         },
         {
+            "content":"Quem tem boca vai a Roma",
+            "meaning":"Esse ditado indica que, com boa comunicação, é possível chegar a qualquer lugar. "
+        },
+        {
             "content": "Amigos amigos, negócios à parte",
             "meaning": "Expressão utilizada para deixar claro que num negócio entre duas partes, nenhuma será favorecida em nome da amizade existente entre ambas."
         },
@@ -99,5 +103,5 @@
             "content": "Não vale a pena chorar sobre leite derramado",
             "meaning": "Não vale a pena lamentarmo-nos sobreo que já aconteceu e não pode ser mudado"
         }
-    ]
+   ]
 }
