@@ -64,7 +64,7 @@
             "meaning": "Expressão diz que, caso ande com más companhias, você acabará fazendo coisas ruins também."
         },
         {
-            "content": " Ladrão que rouba ladrão tem cem anos de perdão.",
+            "content": "Ladrão que rouba ladrão tem cem anos de perdão.",
             "meaning": "Quando alguém se apropria de algo que pertence à outra pessoa, essa mesma pessoa tem o direito de fazer o mesmo."
         },
         {
@@ -105,7 +105,11 @@
         },
         {
             "content": "Não vale a pena chorar sobre leite derramado",
-            "meaning": "Não vale a pena lamentarmo-nos sobreo que já aconteceu e não pode ser mudado"
+            "meaning": "Não vale a pena lamentarmo-nos sobre o que já aconteceu e não pode ser mudado"
+        },
+        {
+            "content": "Para bom entendedor, meia palavra basta",
+            "meaning": "Quando algo pode ser lido nas entrelinhas, e inferido sem ser preciso acabar uma certa comparação"
         }
    ]
 }
