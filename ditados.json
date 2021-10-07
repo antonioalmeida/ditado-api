@@ -1,115 +1,120 @@
 {
-    "ditados": [{
-            "content": "É desde pequenino que se torce o pepino",
-            "meaning": "Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
-        },
-        {
-            "content": "Quem não arrisca, não petisca.",
-            "meaning": "Às vezes correr um risco pode ter benefícios."
-        },
-        {
-            "content": "Quem ama o feio, bonito lhe parece",
-            "meaning": "Quando existe amor ou um sentimento muito forte de estima em relação a outra pessoa, ela passa a ser bela aos olhos do amado, mesmo que não siga os padrões tradicionais de beleza."
-        },
-        {
-            "content": "Não deixe para amanhã o que você pode fazer hoje",
-            "meaning": "Devemos realizar as coisas sem procrastinar, ou seja, sem adiar, deixando para mais tarde."
-        },
-        {
-            "content": "De grão em grão, a galinha enche o papo",
-            "meaning": "Quando economizamos pouco, mas constantemente, conseguimos alcançar aquilo que desejamos, mesmo se o objetivo final pareça ser impossível"
-        },
-        {
-            "content": "Devagar se vai longe",
-            "meaning": "Apresenta que pessoas que fazem atividades com calma, cada uma a seu tempo, conseguem ter mais sucesso do que as que realizam seus afazeres apressados."
-        },
-        {
-            "content": "Cão que ladra não morde",
-            "meaning": "Mostra que algumas pessoas ameaçam com palavras, mas, na verdade, não fazem nada, por isso não é necessário temê-las."
-        },
-        {
-            "content": "Em casa de ferreiro o espeto é de pau",
-            "meaning": "Aplica-se a pessoas que são hábeis em determinadas tarefas mas, ironicamente, não usam essa habilidade quando deviam."
-        },
-        {
-            "content": "Quem ri por último ri melhor",
-            "meaning": "Expressa que não se deve festejar ou vexar alguém que está numa posição desfavorável, pois tal alguém pode inverter a situação e conseguir um desfecho positivo para si e negativo para quem antagoniza."
-        },
-        {
-            "content": "Água mole em pedra dura tanto bate até que fura",
-            "meaning": "Persistência é a chave para obter o que se deseja"
-        },
-        {
-            "content": "Não ponha a carroça na frente dos bois",
-            "meaning": "As coisas sejam feitas numa ordem natural que faça sentido, não adianta tentar apressar e alterar o curso delas."
-        },
-        {
-            "content": "Em terra de cego, quem tem olho é rei",
-            "meaning": "No meio da ignorância, quem sabe o pouco domina"
-        },
-        {
-            "content": "Cavalo dado não se olha os dentes",
-            "meaning": "Quando se recebe um presente, não se deve recusar. De graça até injeção na testa, né?"
-        },
-        {
-            "content": "Mais vale um pássaro na mão do que dois voando",
-            "meaning": "Expressão que indica que é melhor ter algo garantido agora do que a possibilidade de algo melhor no futuro."
-        },
-        {
-            "content": "Virar o bico ao prego.",
-            "meaning": "Dar o dito por não dito, mudar de assunto propositadamente e por conveniência."
-        },
-        {
-            "content": "Quem anda com porcos, come farelos",
-            "meaning": "Expressão diz que, caso ande com más companhias, você acabará fazendo coisas ruins também."
-        },
-        {
-            "content": "Ladrão que rouba ladrão tem cem anos de perdão.",
-            "meaning": "Quando alguém se apropria de algo que pertence à outra pessoa, essa mesma pessoa tem o direito de fazer o mesmo."
-        },
-        {
-            "content": " A voz do povo é a voz de Deus",
-            "meaning": "Significa que a voz do povo tem a força, o poder e ainda, carrega a verdade, tal como a voz de Deus."
-        },
-        {
-            "content": "A César o que é de César",
-            "meaning": "Significa que quando algo pertence a alguém, não devemos desejar."
-        },
-        {
-            "content": "Vozes de burro não chegam ao céu",
-            "meaning": "Expressão que critica quem é desagradável."
-        },
-        {
-            "content": "Comer o pão que o Diabo amassou",
-            "meaning": "Ter passado por muitas dificuldades na vida."
-        },
-        {
-            "content": "Tirar o cavalinho da chuva",
-            "meaning": "Expressão usada quando alguém perde ou devia perder alguma ilusão e ser realista."
-        },
-        {
-            "content": "Vão-se os anéis, ficam os dedos",
-            "meaning": "Expressão utilizada para caracterizar situações nas quais uma pessoa perde algo, mas o mais importante permanece no mesmo lugar."
-        },
-        {
-            "content":"Quem tem boca vai a Roma",
-            "meaning":"Esse ditado indica que, com boa comunicação, é possível chegar a qualquer lugar. "
-        },
-        {
-            "content": "Amigos amigos, negócios à parte",
-            "meaning": "Expressão utilizada para deixar claro que num negócio entre duas partes, nenhuma será favorecida em nome da amizade existente entre ambas."
-        },
-        {
-            "content": "Um olho no peixe e outro no gato",
-            "meaning": "Estar atento, vigiando o que queremos ou temos e quem o possa roubar."
-        },
-        {
-            "content": "Não vale a pena chorar sobre leite derramado",
-            "meaning": "Não vale a pena lamentarmo-nos sobre o que já aconteceu e não pode ser mudado"
-        },
-        {
-            "content": "Para bom entendedor, meia palavra basta",
-            "meaning": "Quando algo pode ser lido nas entrelinhas, e inferido sem ser preciso acabar uma certa comparação"
-        }
-   ]
+  "ditados": [
+    {
+      "content": "É desde pequenino que se torce o pepino",
+      "meaning": "Os bons costumes e educação que se dá as crianças deve ser feito desde o mais cedo possível."
+    },
+    {
+      "content": "Quem não arrisca, não petisca.",
+      "meaning": "Às vezes correr um risco pode ter benefícios."
+    },
+    {
+      "content": "Quem ama o feio, bonito lhe parece",
+      "meaning": "Quando existe amor ou um sentimento muito forte de estima em relação a outra pessoa, ela passa a ser bela aos olhos do amado, mesmo que não siga os padrões tradicionais de beleza."
+    },
+    {
+      "content": "Não deixe para amanhã o que você pode fazer hoje",
+      "meaning": "Devemos realizar as coisas sem procrastinar, ou seja, sem adiar, deixando para mais tarde."
+    },
+    {
+      "content": "De grão em grão, a galinha enche o papo",
+      "meaning": "Quando economizamos pouco, mas constantemente, conseguimos alcançar aquilo que desejamos, mesmo se o objetivo final pareça ser impossível"
+    },
+    {
+      "content": "Devagar se vai longe",
+      "meaning": "Apresenta que pessoas que fazem atividades com calma, cada uma a seu tempo, conseguem ter mais sucesso do que as que realizam seus afazeres apressados."
+    },
+    {
+      "content": "Cão que ladra não morde",
+      "meaning": "Mostra que algumas pessoas ameaçam com palavras, mas, na verdade, não fazem nada, por isso não é necessário temê-las."
+    },
+    {
+      "content": "Em casa de ferreiro o espeto é de pau",
+      "meaning": "Aplica-se a pessoas que são hábeis em determinadas tarefas mas, ironicamente, não usam essa habilidade quando deviam."
+    },
+    {
+      "content": "Quem ri por último ri melhor",
+      "meaning": "Expressa que não se deve festejar ou vexar alguém que está numa posição desfavorável, pois tal alguém pode inverter a situação e conseguir um desfecho positivo para si e negativo para quem antagoniza."
+    },
+    {
+      "content": "Água mole em pedra dura tanto bate até que fura",
+      "meaning": "Persistência é a chave para obter o que se deseja"
+    },
+    {
+      "content": "Não ponha a carroça na frente dos bois",
+      "meaning": "As coisas sejam feitas numa ordem natural que faça sentido, não adianta tentar apressar e alterar o curso delas."
+    },
+    {
+      "content": "Em terra de cego, quem tem olho é rei",
+      "meaning": "No meio da ignorância, quem sabe o pouco domina"
+    },
+    {
+      "content": "Cavalo dado não se olha os dentes",
+      "meaning": "Quando se recebe um presente, não se deve recusar. De graça até injeção na testa, né?"
+    },
+    {
+      "content": "Mais vale um pássaro na mão do que dois voando",
+      "meaning": "Expressão que indica que é melhor ter algo garantido agora do que a possibilidade de algo melhor no futuro."
+    },
+    {
+      "content": "Virar o bico ao prego.",
+      "meaning": "Dar o dito por não dito, mudar de assunto propositadamente e por conveniência."
+    },
+    {
+      "content": "Quem anda com porcos, come farelos",
+      "meaning": "Expressão diz que, caso ande com más companhias, você acabará fazendo coisas ruins também."
+    },
+    {
+      "content": "Ladrão que rouba ladrão tem cem anos de perdão.",
+      "meaning": "Quando alguém se apropria de algo que pertence à outra pessoa, essa mesma pessoa tem o direito de fazer o mesmo."
+    },
+    {
+      "content": " A voz do povo é a voz de Deus",
+      "meaning": "Significa que a voz do povo tem a força, o poder e ainda, carrega a verdade, tal como a voz de Deus."
+    },
+    {
+      "content": "A César o que é de César",
+      "meaning": "Significa que quando algo pertence a alguém, não devemos desejar."
+    },
+    {
+      "content": "Vozes de burro não chegam ao céu",
+      "meaning": "Expressão que critica quem é desagradável."
+    },
+    {
+      "content": "Comer o pão que o Diabo amassou",
+      "meaning": "Ter passado por muitas dificuldades na vida."
+    },
+    {
+      "content": "Tirar o cavalinho da chuva",
+      "meaning": "Expressão usada quando alguém perde ou devia perder alguma ilusão e ser realista."
+    },
+    {
+      "content": "Vão-se os anéis, ficam os dedos",
+      "meaning": "Expressão utilizada para caracterizar situações nas quais uma pessoa perde algo, mas o mais importante permanece no mesmo lugar."
+    },
+    {
+      "content": "Quem tem boca vai a Roma",
+      "meaning": "Esse ditado indica que, com boa comunicação, é possível chegar a qualquer lugar. "
+    },
+    {
+      "content": "Amigos amigos, negócios à parte",
+      "meaning": "Expressão utilizada para deixar claro que num negócio entre duas partes, nenhuma será favorecida em nome da amizade existente entre ambas."
+    },
+    {
+      "content": "Um olho no peixe e outro no gato",
+      "meaning": "Estar atento, vigiando o que queremos ou temos e quem o possa roubar."
+    },
+    {
+      "content": "Não vale a pena chorar sobre leite derramado",
+      "meaning": "Não vale a pena lamentarmo-nos sobre o que já aconteceu e não pode ser mudado"
+    },
+    {
+      "content": "Para bom entendedor, meia palavra basta",
+      "meaning": "Quando algo pode ser lido nas entrelinhas, e inferido sem ser preciso acabar uma certa comparação"
+    },
+    {
+      "content": "Fia-te na virgem e não corras",
+      "meaning": "Quando queremos algo, devemos fazer por isso em vez de esperar que aconteça por intervenção divina."
+    }
+  ]
 }
