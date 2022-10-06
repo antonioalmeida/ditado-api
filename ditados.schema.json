@@ -1,0 +1,30 @@
+{
+  "$id": "https://example.com/ditados.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ditados",
+  "type": "object",
+  "properties": {
+    "ditados": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ditado"
+      }
+    }
+  },
+  "$defs": {
+    "ditado": {
+      "type": "object",
+      "required": ["content", "meaning"],
+      "properties": {
+        "content": {
+          "type": "string",
+          "description": "The phrase"
+        },
+        "meaning": {
+          "type": "string",
+          "description": "The meaning of the phrase"
+        }
+      }
+    }
+  }
+}
