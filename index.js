@@ -1,28 +1,31 @@
 const jsonServer = require('json-server')
+const generateDitado = require('./generate')
+const halves = require('./halves.json')
 
 const router = jsonServer.router('ditados.json')
+const { db } = router
 const server = jsonServer.create()
 const middlewares = jsonServer.defaults()
-const random = require('./random')
-const ditadosArray = require('./ditados.json').ditados
-// PORT
+
 const PORT = process.env.PORT || 3000
-// Middlewares
+
 server.use(middlewares)
 
 // Custom Routes
-server.get('/', (req, res) => {
-  res.send('Hello World')
-})
+
 // Return random ditado.
 server.get('/ditados/random', (req, res) => {
-  const ditado = random.getRandomDitado(false, ditadosArray)
+  const ditado = db.get('ditados').sample().value()
   res.status(200).send(ditado)
 })
 
-//
+// Return generated ditado.
+server.get('/ditados/generate', (req, res) => {
+  const ditado = generateDitado(halves)
+  res.status(200).send(ditado)
+})
+
 server.use(router)
-// Listen
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })

@@ -13,8 +13,10 @@ Fetching _ditados_ is an easy enough use case. Also inspired by [this](https://g
 
 Public REST API available at https://ditado-api.fly.dev
 
-- [x] `GET /ditados` - Fetch all entries
-- [x] `GET /ditados/random` - Fetch random entry.
+- `GET /ditados` - Fetch all entries
+- `GET /ditados?q=pequenino` - Search for a ditado matching a particular word
+- `GET /ditados/random` - Fetch a random ditado.
+- `GET /ditados/generate` - 🆕 Create a new ditado! Inspired by [ditado-generator](https://github.com/henriquetguedes/DITADOgenerator)
 
 ## Contribute
 
