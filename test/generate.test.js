@@ -8,7 +8,7 @@ test('generates ditado', () => {
   ]
 
   expect([
-    { content: 'prefix 1 suffix 2' },
-    { content: 'prefix 2 suffix 1' },
-  ]).toContain(generateDitado(ditados))
+    { content: 'prefix 1 suffix 2', prefix: 'prefix 1', suffix: 'suffix 2' },
+    { content: 'prefix 2 suffix 1', prefix: 'prefix 2', suffix: 'suffix 1' },
+  ]).toContainEqual(generateDitado(ditados))
 })

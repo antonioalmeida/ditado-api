@@ -11,7 +11,11 @@ const generateDitado = ditados => {
   const { prefix } = ditados[p]
   const { suffix } = ditados[s]
 
-  return { content: `${prefix} ${suffix}` }
+  return {
+    content: `${prefix} ${suffix}`,
+    prefix,
+    suffix,
+  }
 }
 
 module.exports = generateDitado
