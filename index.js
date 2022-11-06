@@ -14,13 +14,13 @@ server.use(middlewares)
 // Custom Routes
 
 // Return random ditado.
-server.get('/random', (req, res) => {
+server.get('/ditados/random', (req, res) => {
   const ditado = db.get('ditados').sample().value()
   res.status(200).send(ditado)
 })
 
 // Return generated ditado.
-server.get('/generate', (req, res) => {
+server.get('/ditados/generate', (req, res) => {
   const ditado = generateDitado(halves)
   res.status(200).send(ditado)
 })
