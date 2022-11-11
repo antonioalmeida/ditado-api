@@ -2,9 +2,9 @@
   "name": "ditado-api",
   "version": "1.0.0",
   "description": "Public API to serve popular portuguese sayings, i.e., \"ditados\"",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "./node_modules/.bin/jest",
     "lint": "./node_modules/.bin/eslint ."
   },
