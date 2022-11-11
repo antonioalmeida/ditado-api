@@ -1,8 +1,8 @@
 const jsonServer = require('json-server')
 const generateDitado = require('./generate')
-const halves = require('./halves.json')
+const halves = require('../data/halves.json')
 
-const router = jsonServer.router('ditados.json')
+const router = jsonServer.router('../data/ditados.json')
 const { db } = router
 const server = jsonServer.create()
 const middlewares = jsonServer.defaults()
