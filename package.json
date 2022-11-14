@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/antonioalmeida/ditado-api#readme",
   "dependencies": {
+    "@jest/globals": "^27.3.1",
     "express": "^4.17.1",
     "json-server": "^0.15.1"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "ajv": "^8.11.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
     "jest": "^25.x"
   }
 }
