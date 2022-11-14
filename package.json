@@ -21,7 +21,8 @@
   "dependencies": {
     "@jest/globals": "^27.3.1",
     "express": "^4.17.1",
-    "json-server": "^0.15.1"
+    "json-server": "^0.15.1",
+    "node-schedule": "^2.1.0"
   },
   "devDependencies": {
     "ajv": "^8.11.0",
