@@ -1,7 +1,7 @@
 const jsonServer = require('json-server')
+const schedule = require('node-schedule')
 const generateDitado = require('./generate')
 const halves = require('./halves.json')
-const schedule = require('node-schedule')
 
 const router = jsonServer.router('ditados.json')
 const { db } = router
@@ -31,7 +31,6 @@ server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
 
-var tooter = schedule.scheduleJob('* * * * *', function(){
+schedule.scheduleJob('* * * * *', () => {
   console.log('This will run once a minute. It should be set up for the desired time once the Mastodon posting flow is perfected')
 })
-
