@@ -36,11 +36,13 @@ server.listen(PORT, () => {
 
 async function tooter(msg) {
   // URL and access token for a specific Mastodon account should be defined as env variables
-  const masto = await login({ url: process.env.MAST_URL, accessToken: process.env.TOKEN })
-  await masto.statuses.create({ status: msg, visibility: 'direct' })
+  const masto = await login({ url: process.env.MAST_URL, accessToken: process.env.MAST_TOKEN })
+  await masto.statuses.create({ status: msg, visibility: 'public' })
 }
 
-schedule.scheduleJob('* * * * *', () => {
-  console.log(`This will run once a minute. testing: ${Date.now()}`)
-  tooter(`Mastodon bot. testing: ${Date.now()}`)
-})
+if (process.env.MAST_TOKEN) { // assumes a Mastodon URL is also set and takes it as a sufficient condition for running
+  schedule.scheduleJob('* * * * *', () => {
+    const ditado = db.get('ditados').sample().value()
+    tooter(`Ditado do dia: \n\n--${ditado.content}\n\nSignificado: ${ditado.meaning}`)
+  })
+}
