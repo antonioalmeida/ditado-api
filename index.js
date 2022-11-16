@@ -41,7 +41,7 @@ async function tooter(msg) {
 }
 
 if (process.env.MAST_TOKEN) { // assumes a Mastodon URL is also set and takes it as a sufficient condition for running
-  schedule.scheduleJob('* * * * *', () => {
+  schedule.scheduleJob('30 9 * * *', () => {
     const ditado = db.get('ditados').sample().value()
     tooter(`Ditado do dia: \n\n--${ditado.content}\n\nSignificado: ${ditado.meaning}`)
   })
