@@ -1,5 +1,8 @@
 const jsonServer = require('json-server')
 const schedule = require('node-schedule')
+const { login } = require('masto')
+require('dotenv').config()
+
 const generateDitado = require('./generate')
 const halves = require('./halves.json')
 
@@ -31,6 +34,13 @@ server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
 
+async function tooter(msg) {
+  // URL and access token for a specific Mastodon account should be defined as env variables
+  const masto = await login({ url: process.env.MAST_URL, accessToken: process.env.TOKEN })
+  await masto.statuses.create({ status: msg, visibility: 'direct' })
+}
+
 schedule.scheduleJob('* * * * *', () => {
-  console.log('This will run once a minute. It should be set up for the desired time once the Mastodon posting flow is perfected')
+  console.log(`This will run once a minute. testing: ${Date.now()}`)
+  tooter(`Mastodon bot. testing: ${Date.now()}`)
 })
