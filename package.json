@@ -21,7 +21,7 @@
   "dependencies": {
     "@jest/globals": "^27.3.1",
     "dotenv": "^16.0.3",
-    "express": "^4.17.3",
+    "express": "^4.21.1",
     "json-server": "^0.17.1",
     "masto": "^4.6.2",
     "node-schedule": "^2.1.0"
