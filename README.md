@@ -7,7 +7,7 @@ Public API to serve _ditados_, i.e., popular Portuguese sayings.
 
 Fetching _ditados_ is an easy enough use case. Also inspired by [this](https://github.com/msramalho/json-tv-quotes).
 
-*Update:* since the original release Heroku has decomissioned their free tier (we're now using [fly.io](https://fly.io) and Github Actions has considerably matured. I now use this to play around
+*Update:* since the original release Heroku has decomissioned their free tier. We're now using [fly.io](https://fly.io), and Github Actions has considerably matured. I now use this to play around.
 
 ## API
 
